@@ -7,6 +7,13 @@ def initialize(name)
   @@all << self
 end
 
-def @
+def @all
+  @all = @@all
+end 
+
+def @print_all
+  @@all.each do |name|
+    puts name
+end 
 
 end
