@@ -18,7 +18,7 @@ def self.print_all
 end 
 
 def self.clear_all
-  @@all.array#clear_all
+  @@all.clear
 end 
 
 end
